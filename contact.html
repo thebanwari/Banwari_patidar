@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Banwari Patidar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="certificates.html">Certificates</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">☀️</button>
+  </nav>
+  <main class="contact-container">
+    <h2>Contact Me</h2>
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain" class="contact-form">
+      <label for="name-input">Name:</label>
+      <input type="text" id="name-input" name="name" required />
+      <label for="email-input">Email:</label>
+      <input type="email" id="email-input" name="email" required />
+      <label for="message-input">Message:</label>
+      <textarea id="message-input" name="message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
