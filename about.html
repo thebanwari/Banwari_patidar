@@ -9,18 +9,26 @@
 </head>
 <body>
   <!-- ===== Navbar ===== -->
+  <header>
   <nav class="navbar">
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="skills.html">Skills</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="education.html">Education</a></li>
-      <li><a href="about.html" class="active">About</a></li>
-      <li><a href="certificates.html">Certificates</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">☀️</button>
+    <div class="nav-left">
+      <button id="theme-toggle" class="theme-btn">☀️</button>
+    </div>
+
+    <div class="nav-right">
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="certificates.html">Certificates</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
   </nav>
+</header>
 
   <!-- ===== About Section ===== -->
   <main class="about-container">
